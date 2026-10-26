@@ -1,0 +1,3 @@
+CONTAINER ID   IMAGE                COMMAND                  CREATED         STATUS         PORTS                                         NAMES
+ec1ea026a630   a3554c0d0b48         "/docker-entrypoint.…"   3 minutes ago   Up 3 minutes   0.0.0.0:8085->80/tcp                          terraform-nginx
+8e52fc56ca54   nodejs-cicd-webapp   "docker-entrypoint.s…"   34 hours ago    Up 3 hours     0.0.0.0:2000->2000/tcp, [::]:2000->2000/tcp   nodejs-webapp
